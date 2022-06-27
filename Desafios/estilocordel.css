@@ -7,7 +7,6 @@
 
 body { /* configuração do prof*/
     min-height: 100vh;
-    background-color: darkgray;
 }
 
 @font-face {
@@ -34,7 +33,7 @@ header > h1 {
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    padding-top: 20px;
+    padding-top: 20px; /*prof configurou padding-bottom 50px*/
 }
 
 main {
