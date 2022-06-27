@@ -9,12 +9,15 @@ body { /* configuração do prof*/
     min-height: 100vh;
 }
 
-@font-face {
-    font-family:Passio One;
-    src: url(PassionOne-Black.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fontenormal: Verdana, Geneva, Tahoma, sans-serif;
+    --fontetítulo: 'Passion One', 'cursive';
+    --fontecordel: 'Sriracha', 'cursive;'
+}
 
 header {
     background-color: black;
@@ -26,7 +29,7 @@ header {
 header > h1 {
     font-family: 'Passion one';
     padding-top: 70px; /*prof colocou 50px*/
-    font-size: 10vh;
+    font-size: 10vw;
     font-variant: small-caps; /*faz com que todas as letras tenham aparência de maiúsculas, mesmo só a primeira e a última sendo*/
 }
 
