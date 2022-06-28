@@ -9,7 +9,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         table{
-            width: 700px;
+            width: 500px;
             border-collapse: collapse;
         }
         caption{
@@ -32,6 +32,9 @@
         td.position {
             text-align: center;
                     }
+        tbody > tr:nth-child(2n) /*ao invés de colocar 2n pode-se colocar odd(ímpar) ou even(par)*/ {
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -40,7 +43,7 @@
         <caption>População Mundial</caption>
         <thead>
             <tr>
-                <th class="position">Posição</th>
+                <th class="position" style="width: 30px;">Posição</th>
                 <th scope="col">País</th>
                 <th scope="col">Estimativa</th>
             </tr>
@@ -200,6 +203,7 @@
         </tbody>
         <tfoot>
             <tr>
+                <th>#</th>
                 <th scope="row">População Total</th>
                 <td scope="row">6 008 477 102</td>
             </tr>
