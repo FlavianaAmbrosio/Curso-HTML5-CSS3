@@ -12,6 +12,12 @@
             width: 700px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         td{
             border: 1px solid black;
         }
@@ -31,11 +37,12 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População Mundial</caption>
         <thead>
             <tr>
                 <th class="position">Posição</th>
-                <th>País</th>
-                <th>Estimativa</th>
+                <th scope="col">País</th>
+                <th scope="col">Estimativa</th>
             </tr>
         </thead>
         <tbody>
@@ -193,7 +200,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Informações do Wikipédia</th>
+                <th scope="row">População Total</th>
+                <td scope="row">6 008 477 102</td>
             </tr>
         </tfoot>
     </table>
