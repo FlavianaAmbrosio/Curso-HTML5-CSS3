@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+menu {
+    padding: 15px;
+}
+menu li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+main {
+    margin: auto;
+    width: 800px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main p {
+    padding: 10px;
+    line-height: 1.2em;
+}
