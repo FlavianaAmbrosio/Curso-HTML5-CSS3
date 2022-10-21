@@ -8,7 +8,6 @@
 
 header {
     background-color: rgb(148, 148, 148);
-    height: 307px;
 }
 
 span#burger {
@@ -33,6 +32,9 @@ h1 {
     padding-bottom: 15px;
 }
 
+menu {
+    display: none;
+}
 
 menu a {
     background-color: rgb(99, 92, 92);
