@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;  /*faz com q o menu hamburguinho suma em telas a partir do tablet*/
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block; /*faz com que os itens do menu apareçam um do lado do outro*/
+    }
+
+    main {
+        width: 768px;
+    }
+}
